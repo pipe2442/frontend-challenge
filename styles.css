@@ -1,0 +1,18 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1em;
+    width: 70%;
+    max-width: 20vw;
+    margin: 0 auto;
+    background-color: red;
+}
+.card__img {
+    border-top-left-radius:  1em;
+    border-top-right-radius:  1em;
+}
+.card__summary {
+    padding: 1.5rem 1rem;
+}
