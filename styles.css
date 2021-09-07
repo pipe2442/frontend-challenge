@@ -16,3 +16,24 @@
 .card__summary {
     padding: 1.5rem 1rem;
 }
+.card__description {
+    padding: .5rem 1rem;
+}
+.card-bullet {
+    border-radius: .5em;
+    background-color: hsl(225, 100%, 98%);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+.card-bullet__title {
+    padding: 0;
+    margin: 0;
+}
+.card-bullet__price {
+    color: hsl(224, 23%, 55%);
+}
